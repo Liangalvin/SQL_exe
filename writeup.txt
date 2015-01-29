@@ -1,0 +1,26 @@
+1 In your own words: what is a database?
+
+A database is a technological file cabinet, that allows for easy accessibility
+to information.
+
+
+2 List some problems with using files instead of a database.
+
+Problems associated with files instead of database is the lack of structure.
+A file lacks the computerized cataloging system of the database, leading tostuff
+being messy.
+
+
+3 What is a schema (google may confuse you here)?
+
+The schema is the actual structure of the database. The schema of the file
+cabinet can have the schema of alphabets. If a person was literate with common
+sense, they would be able to access information under that letter of the
+alphabet.
+
+
+4 When you are not specifically adding/deleting or querying your database, is it still running?
+
+Technically yes because it's job is to hold information, so it's holding
+information even when you're not doing anything. Like Atlas holding up the
+world, but a database is holding onto information.

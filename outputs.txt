@@ -1,0 +1,48 @@
+sqlite> SELECT * FROM schools;
+1|Brooklyn College Academy|Brooklyn|NY|11218
+2|Columbia Secondary School|New York|NY|10027
+3|Bayside High School|Bayside|NY|11361
+sqlite> .schema schools
+
+
+
+
+sqlite> PRAGMA table_info(schools);
+0|id|INTEGER|0||1
+1|name|text|0||0
+2|city|text|0||0
+3|state|text|0||0
+4|zip|integer|0||0
+
+
+
+sqlite> UPDATE schools SET name="Manhattan High";
+sqlite> SELECT * FROM schools;
+1|Manhattan High|Brooklyn|NY|11218
+2|Manhattan High|New York|NY|10027
+3|Manhattan High|Bayside|NY|11361
+
+
+
+sqlite> SELECT * FROM teachers;
+1|Sam|Sam@GA|Something?|20000
+2|Crawford|Craw@GA|Something?|20000
+
+
+
+sqlite> .schema teachers
+CREATE TABLE teachers (
+  id INTEGER PRIMARY KEY,
+  name text,
+  email text,
+  subject text,
+  age int
+);
+
+
+
+
+sqlite> UPDATE teachers SET age=40;
+sqlite> SELECT * FROM teachers;
+1|Sam|Sam@GA|Something?|40
+2|Crawford|Craw@GA|Something?|40
